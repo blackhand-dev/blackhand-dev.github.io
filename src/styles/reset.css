@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main CSS */
+
+*{
+    background-color: #181A1B;
+}
+
+@font-face {
+    font-family: "GeistMonoLight";
+    src: url("fonts/GeistMono-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "GeistMonoRegular";
+    src: url("fonts/GeistMono-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "GeistMonoSemibold";
+    src: url("fonts/GeistMono-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "GeistMonoBold";
+    src: url("fonts/GeistMono-Bold.otf") format("opentype");
+}
+
+.main{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    display:flex;
+    gap: 30px;
+	height: 327px;
+}
+
+.logo{
+}
+
+.content{
+	align-self: center;
+	flex-grow: 1;
+}
+
+.header{
+	align-self: self-start;
+	white-space: nowrap;
+    font-family: "GeistMonoSemibold";
+    font-size: 14px;
+    color: #7AAE0C;
+    text-align: left;
+}
+
+.highlight-yellow{
+    color: #C79303;
+}
+
+.highlight-green{
+    color: #7AAE0C;
+}
+
+.link-redirect, .link-redirect:visited{
+    color: #7AAE0C;
+    text-decoration: none;
+}
+
+.link-redirect:hover{
+    color: #C79303;
+}
+
+.text{
+    font-family: "GeistMonoSemibold";
+    color: #8C8C8C;
+    font-size: 14px;
+    width: 400px;
+    text-align: justify;
+    line-height: 17px;
+
+}
+
+.status-bar{
+    font-family: "GeistMonoSemibold";
+    color: #8C8C8C;
+    font-size: 14px;
+    line-height: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.status-bar-text{
+    text-align: left;
+    padding-top: 20px;
+    line-height: 10px;
+}
+
+.status-bar-info{
+    text-align: right;
+    padding-top: 20px;
+    line-height: 10px;
+}
+
+.divider-line{
+    display: flex;
+    align-items: center;
+    padding-top: 34px;
+}
+
+.square{
+    width: 4px;
+    height: 4px;
+    background-color: #7AAE0C;
+}
+
+.line{
+    width: 396px;
+    height: 2px;
+    background-color: #7AAE0C;
+}
+
+.resume-redirect{
+	display: flex;
+	justify-content: space-between;
+}
