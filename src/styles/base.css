@@ -55,22 +55,22 @@ table {
 
 @font-face {
     font-family: "GeistMonoLight";
-    src: url("fonts/GeistMono-Light.otf") format("opentype");
+    src: url("../public/fonts/GeistMono-Light.otf") format("opentype");
 }
 
 @font-face {
     font-family: "GeistMonoRegular";
-    src: url("fonts/GeistMono-Regular.otf") format("opentype");
+    src: url("../public/fonts/GeistMono-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: "GeistMonoSemibold";
-    src: url("fonts/GeistMono-SemiBold.otf") format("opentype");
+    src: url("../public/fonts/GeistMono-SemiBold.otf") format("opentype");
 }
 
 @font-face {
     font-family: "GeistMonoBold";
-    src: url("fonts/GeistMono-Bold.otf") format("opentype");
+    src: url("../public/fonts/GeistMono-Bold.otf") format("opentype");
 }
 
 .main{ 
@@ -86,9 +86,6 @@ table {
     display:flex;
     gap: 30px;
 	height: 327px;
-}
-
-.logo{
 }
 
 .content{
