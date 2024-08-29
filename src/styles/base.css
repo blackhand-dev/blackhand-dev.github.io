@@ -106,7 +106,11 @@ table {
         height: 327px;
         flex-direction: column;
     }
-    
+   
+    .logo{
+       align-self: center;
+       align-items: center; 
+    }
 }
 
 .content{
@@ -122,6 +126,7 @@ table {
     padding-top: 4px;
     color: #7AAE0C;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .highlight-yellow{
