@@ -4,13 +4,11 @@ import "../styles/base.css";
 const {date, name, description, link} = Astro.props;
 ---
 
-<main>
-    <div class="redirect">
-        <p class="highlight-green">[{date}]</p>
-        <div class="description">
-            <p><a href={link} class="link-redirect">{name}</a></p>
-            <p>{description}</p>
-        </div>
+<div class="redirect">
+    <p class="highlight-green">[{date}]</p>
+    <div class="description">
+        <p><a href={link} class="link-redirect" target="_blank">{name}</a></p>
+        <p>{description}</p>
     </div>
-    <br>
-</main>
+</div>
+<br>
