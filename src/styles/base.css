@@ -114,6 +114,7 @@ table {
 .link-redirect, .link-redirect:visited{
     color: #7AAE0C;
     text-decoration: none;
+    align-self: center;
 }
 
 .link-redirect:hover{
@@ -170,7 +171,24 @@ table {
     background-color: #7AAE0C;
 }
 
-.resume-redirect{
+.redirect{
 	display: flex;
 	justify-content: space-between;
+}
+
+.description{
+    word-wrap: break-word;
+    text-align: right;
+    width:305px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+    align-self: center;
+}
+
+.icons{
+    display: flex;
 }
