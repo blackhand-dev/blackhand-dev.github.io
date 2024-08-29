@@ -90,22 +90,21 @@ table {
 
 @media (max-width: 640px) {
     
-    nav, ul{
-        padding: 0;
-    }
     .main{
         position: absolute;
         top: 0;
-        margin-top: 40%; 
+        margin-top: 100%; 
+        border: 2px solid;
     }
 
     .flex-container{
         display: flex;
         gap: 30px;
-        height: 327px;
         flex-direction: column;
+        height:auto;
         align-items: center;
         scale: 0.8;
+        border: 2px solid;
     }
 
 }
