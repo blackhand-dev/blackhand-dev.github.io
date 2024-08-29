@@ -89,11 +89,11 @@ table {
 }
 
 @media (max-width: 640px) {
-    
+ 
     .main{
         position: absolute;
-        top: 0;
-        margin-top: 100%;
+        top: 0; 
+        margin-top: 110%;
         border: 2px solid;
     }
 
@@ -105,6 +105,7 @@ table {
         align-items: center;
         scale: 0.8;
         border: 2px solid;
+
     }
 
 }
