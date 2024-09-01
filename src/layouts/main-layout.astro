@@ -2,6 +2,7 @@
 import '../styles/base.css';
 import Header from '../components/header.astro';
 import Logo from '../components/logo.astro';
+import StatusBar from '../components/status-bar.astro';
 
 interface Props {
 	title: string;
@@ -36,27 +37,7 @@ const { title } = Astro.props;
 						<slot></slot>
 					</div>
 
-					<div class="divider-line">
-						<div class="square">
-						</div>
-						<div class="line">
-						</div>
-						<div class="square">
-						</div>
-					</div>
-
-					<div class="status-bar">
-						<div class="status-bar-text">
-						<p>FOR_RECRUITMENT</p>
-						<br>
-						<p>FOR_COMISSION</p>
-						</div>
-						<div class="status-bar-info">
-						<p>[<span class="highlight-yellow">INVALID</span>]</p>
-						<br>
-						<p>[<span class="highlight-green">OK</span>]</p>
-						</div>
-					</div>
+					<StatusBar></StatusBar>
 				</div>
 		
 			<Header></Header>

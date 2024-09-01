@@ -1,0 +1,10 @@
+---
+import "../styles/base.css";
+import { Image } from 'astro:assets';
+
+const {source, alt} = Astro.props;
+---
+
+<div class="image-list">
+   <img class="image" src={source} alt={alt}>
+</div>
