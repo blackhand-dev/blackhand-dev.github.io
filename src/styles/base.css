@@ -68,7 +68,7 @@ table {
 
 @font-face {
     font-family: "GeistMonoSemibold";
-    src: url("public/fonts/GeistMono-SemiBold.otf") format("opentype");
+    src: url("/public/fonts/GeistMono-SemiBold.otf") format("opentype");
 }
 
 @font-face {
