@@ -63,7 +63,7 @@ table {
 
 @font-face {
     font-family: "GeistMonoRegular";
-    src: url("public/fonts/GeistMono-Regular.otf") format("opentype");
+    src: url("/public/fonts/GeistMono-Regular.otf") format("opentype");
 }
 
 @font-face {
@@ -73,7 +73,7 @@ table {
 
 @font-face {
     font-family: "GeistMonoBold";
-    src: url("public/fonts/GeistMono-Bold.otf") format("opentype");
+    src: url("/public/fonts/GeistMono-Bold.otf") format("opentype");
 }
 
 .main{ 
@@ -222,8 +222,8 @@ table {
 }
 
 .content-image{
-    justify-content: center;
-    height: 475px;
+    align-self: center;
+    height: 445px;
     flex-grow: 1;
 }
 
