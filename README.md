@@ -14,7 +14,7 @@ Blackhand.dev was build using pure HTML and CSS, delivered through AstroJS and p
 
 Originally made using only HTML and CSS, I've decided to switch to AstroJS to make content delivery more efficient, as well as to make switching to a dynamic site easier in the future.
 
-# Setting Up Locally
+## Setting Up Locally
 
 You can download the files as-is and run it using Astro.
 
@@ -32,3 +32,7 @@ cd blackhand-dev.github.com
 npm run dev
 ```
 Open `http://localhost:4321/` in your browser.
+
+## Pull Requests and Improvements
+
+If you see an error or a place where content should be updated or improved, just fork this repository to your account, make the change you'd like and then submit a pull request. If you're not able to make the change, file an [issue](https://github.com/blackhand-dev/blackhand-dev.github.io/issues/new).
