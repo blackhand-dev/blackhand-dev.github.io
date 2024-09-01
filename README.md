@@ -2,6 +2,8 @@
 
 ![blackhand.dev](/public/images/readme/blackhand-dev.png)
 
+[![My Skills](https://skillicons.dev/icons?i=astro,html,css,ts,github)](https://skillicons.dev)
+
 This repository serves as the codebase for blackhand.dev, My personal website. This peroject was done in 7 days to serve as both practice and a practical way for others to see my works as well as contact me.
 
 The site is open source, and all the code is freely available to view and copy for their own websites.
